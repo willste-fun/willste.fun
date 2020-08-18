@@ -1,3 +1,30 @@
+html {
+  font-family: "Lucida Sans", sans-serif;
+  background-color: #FFFFFC;
+  color: #000000;
+}
+
+header {
+  background-color: #BDB2FF;
+  color: #FFFFFC;
+  padding: 15px;
+  text-align: center;
+}
+
+nav {
+  background-color: #FFC6FF;
+  text-align: center;
+  padding: 1%;
+}
+
+footer {
+  background-color: #FFADAD;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
 /*  SECTIONS  */
 .section {
 	clear: both;
@@ -25,7 +52,7 @@
 .span_1_of_3 { width: 32.26%; }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
